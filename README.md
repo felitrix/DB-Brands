@@ -32,7 +32,7 @@ git clone https://github.com/felitrix/DB-Brands.git
     
 ## Support
 
-Para support, envie um e-mail para felipekojinakamura@proton.me
+Para suporte, envie um e-mail para felipekojinakamura@proton.me
 
 
 ## Badges
