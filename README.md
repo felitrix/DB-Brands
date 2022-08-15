@@ -13,7 +13,7 @@ Este projeto é dedicado para o trabalho de um grupo do 1°B de multimídia em s
 
 #### Como é feito o website?
 
-O website é criado usando somente as tecnologias HTML e CSS
+O website é criado usando somente as tecnologias HTML e CSS.
 
 #### Quem faz parte do projeto?
 
@@ -30,7 +30,7 @@ apt-get install git
 git clone https://github.com/felitrix/DB-Brands.git
 ```
     
-## Support
+## Suporte
 
 Para suporte, envie um e-mail para felipekojinakamura@proton.me
 
