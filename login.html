@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<!--If you don't understand the code, don't be sad, we are two who don't understand that ;)-->
 
 <head>
     <!-- Meta -->
@@ -16,41 +17,31 @@
     <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
     <meta name="keywords" content="">
-    <meta name="author" content="Enzo">
+    <meta name="author" content="Felipe">
     <meta name="description" content="">
 
     <!-- Favicon-->
     <link rel="icon" href="images/logo.png" type="image/x-icon">
     <!-- Stylesheet-->
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="/css/test.css">
 </head>
-<div class="ab">
-    <header class="cabecalho">
-        <a href="/"><img class="cabecalho-imagem" src="images/logo.png" alt="Logo da Digital Brands"></a>
-        <nav class="cabecalho-menu">
-            <a class="cabecalho-menu-item" href="login.html">Login</a>
-            <a class="cabecalho-menu-item" href="#">Criar Empresa</a>
-        </nav>
-    </header>
-
-    <body>
-
-        <div class=login-page>
-            <div class=row>
-                <div class="login">
-                    <h1>Login</h1>
-                    <form role=form ng-submit=submit()>
-                        <div class=form-content>
-                            <div class=form-group> <input type=text class="form-email" placeholder=Email>Email</div>
-                            <div class=form-group> <input type=password class="form-senha" placeholder=Password>Senha
-                            </div>
-                        </div>
-                        <button type=submit class="btn-login">Login</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-</div>
+<body>
+<div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" placeholder="Nome"/>
+        <input type="password" placeholder="Senha"/>
+        <input type="text" placeholder="Endereço de E-mail"/>
+        <button>Criar</button>
+        <p class="message">Já tem conta? <a href="#">Logar</a></p>
+      </form>
+      <form class="login-form">
+        <input type="text" placeholder="Nome de Usuário"/>
+        <input type="password" placeholder="Senha"/>
+        <button>Logar</button>
+        <p class="message">Ainda não tem uma conta? <a href="#">Criar uma conta</a></p>
+      </form>
+    </div>
+  </div>
 </body>
-<html>
+</html>

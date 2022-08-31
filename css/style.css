@@ -1,5 +1,5 @@
 /*google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /*CSS Reset*/
 *,
@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Sarala', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     text-decoration: none;
 }
 
@@ -16,6 +16,14 @@ body {
     font-size: 100%;
     list-style-type: none;
 }
+
+/*
+.color1 { #08ccd4 };
+.color2 { #b9fafa };
+.color3 { #09b7cb };
+.color4 { #508484 };
+.color5 { #b0d7d0 };
+*/
 
 /*nav*/
 .header {
@@ -45,23 +53,25 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #0396eb;
+    color: #09b7cb
 }
 
-.text-box{
+.text-box {
     margin-top: 130px;
     max-width: 600px;
 }
-.text-box h1{
+
+.text-box h1 {
     font-size: 45px;
     margin-bottom: 20px;
-    color: #0396eb;
+    color: #09b7cb;
 }
-.text-box a{
+
+.text-box a {
     display: inline-block;
     text-decoration: none;
-    color: #0396eb;
-    background: #2db0fc;
+    color: #09b7cb;
+    background: #000E1C;
     padding: 10px 30px;
     font-size: 18px;
     margin-top: 50px;
@@ -70,7 +80,7 @@ nav ul li a {
 
 /* unvisited link */
 a:link {
-    color: #0396eb;
+    color: #09b7cb;
 }
 
 /* visited link */
@@ -80,7 +90,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #2db0fc;
+    color: #09b7cb;
 }
 
 /* selected link */
@@ -93,14 +103,15 @@ a:active {
 .ticom {
     padding-top: 20px;
     color: #000;
-    text-align: left;
-    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
     padding-left: 40px;
     background-color: #fff;
 }
 
 .container {
-    background-color: #fff;
+    background-color: grey;
     min-height: 58px;
     max-height: 47%;
     padding: 50px;
@@ -132,7 +143,7 @@ a:active {
 
 p {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 .card p {
@@ -247,125 +258,274 @@ footer {
 
 .mouse_scroll {
     display: block;
-    
+
     margin: 0 auto;
     width: 24px;
     height: 100px;
     margin-top: 125px;
-  }
-  
-  
-  .m_scroll_arrows
-  {
+}
+
+
+.m_scroll_arrows {
     display: block;
     width: 5px;
     height: 5px;
-    -ms-transform: rotate(45deg); /* IE 9 */
-    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
     transform: rotate(45deg);
-     
+
     border-right: 2px solid white;
     border-bottom: 2px solid white;
     margin: 0 0 3px 4px;
-    
+
     width: 16px;
     height: 16px;
-  }
-  
-  
-  .unu
-  {
+}
+
+
+.unu {
     margin-top: 1px;
-  }
-  
-  .unu, .doi, .trei
-  {
-      -webkit-animation: mouse-scroll 1s infinite;
-      -moz-animation: mouse-scroll 1s infinite;
-      animation: mouse-scroll 1s infinite;
-    
-  }
-  
-  .unu
-  {
+}
+
+.unu,
+.doi,
+.trei {
+    -webkit-animation: mouse-scroll 1s infinite;
+    -moz-animation: mouse-scroll 1s infinite;
+    animation: mouse-scroll 1s infinite;
+
+}
+
+.unu {
     -webkit-animation-delay: .1s;
     -moz-animation-delay: .1s;
     -webkit-animation-direction: alternate;
-    
+
     animation-direction: alternate;
     animation-delay: alternate;
-  }
-  
-  .doi
-  {
+}
+
+.doi {
     -webkit-animation-delay: .2s;
     -moz-animation-delay: .2s;
     -webkit-animation-direction: alternate;
-    
+
     animation-delay: .2s;
     animation-direction: alternate;
-    
+
     margin-top: -6px;
-  }
-  
-  .trei
-  {
+}
+
+.trei {
     -webkit-animation-delay: .3s;
     -moz-animation-delay: .3s;
     -webkit-animation-direction: alternate;
-    
+
     animation-delay: .3s;
     animation-direction: alternate;
-    
-    
+
+
     margin-top: -6px;
-  }
-  
-  .mouse {
+}
+
+.mouse {
     height: 42px;
     width: 24px;
     border-radius: 14px;
     transform: none;
     border: 2px solid white;
     top: 170px;
-  }
-  
-  .wheel {
+}
+
+.wheel {
     height: 5px;
     width: 2px;
     display: block;
     margin: 5px auto;
     background: white;
     position: relative;
-    
+
     height: 7px;
     width: 5px;
     border: 2px solid #fff;
     -webkit-border-radius: 8px;
-            border-radius: 8px;
-  }
-  
-  @-webkit-keyframes mouse-scroll {
-  
-    0%   { opacity: 0;}
-    50%  { opacity: .5;}
-    100% { opacity: 1;}
-  }
-  @-moz-keyframes mouse-scroll {
-  
-    0%   { opacity: 0; }
-    50%  { opacity: .5; }
-    100% { opacity: 1; }
-  }
-  @-o-keyframes mouse-scroll {
-  
-    0%   { opacity: 0; }
-    50%  { opacity: .5; }
-    100% { opacity: 1; }
-  }
-  @keyframes mouse-scroll {
-  
-    0%   { opacity: 0; }
-    50%  { opacity: .5; }
-    100% { opacity: 1; }
-  }
+    border-radius: 8px;
+}
+
+@-webkit-keyframes mouse-scroll {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes mouse-scroll {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes mouse-scroll {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes mouse-scroll {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*This part of code was a fork from Copyright (c) 2022 by Levin Mejia (https://codepen.io/levinmejia/pen/zrddrv)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/
+
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+/* Product Layout */
+
+.product-filter {
+    display: flex;
+    padding: 30px 0;
+}
+
+.sort {
+    display: flex;
+    align-self: flex-end;
+}
+
+.collection-sort {
+    display: flex;
+    flex-direction: column;
+}
+
+.collection-sort:first-child {
+    padding-right: 20px;
+}
+
+label {
+    color: #666;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    flex: 1 16%;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-info {
+    margin-top: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 920px) {
+
+    .product-card {
+        flex: 1 21%;
+    }
+
+    .products .product-card:first-child,
+    .products .product-card:nth-child(2) {
+        flex: 2 46%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .product-card {
+        flex: 1 46%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .product-filter {
+        flex-direction: column;
+    }
+
+    .sort {
+        align-self: flex-start;
+    }
+
+}
