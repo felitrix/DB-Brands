@@ -1,4 +1,3 @@
-
 # DB Brands
 
 Esse website criado para a DB Brands, onde objetiva a prototipação do projeto, com o intuito de  facilitar o empreendedorismo para as pessoas através de criações de artes digitais para o Metaverso.
