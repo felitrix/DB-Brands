@@ -116,9 +116,6 @@
 
     /* footer */
     footer {
-        background-color: #000;
-        flex-wrap: wrap;
-        color: #000;
         text-align: left;
         padding: 20px;
 
@@ -128,13 +125,10 @@
         line-height: 22px;
         padding-left: 40px;
         margin-top: 3px;
-        color: #a1a0a4;
         font-size: 14px;
     }
 
     .mouse_scroll {
-        display: block;
-
         margin: 0 auto;
         width: 24px;
         height: 100px;
@@ -146,11 +140,6 @@
         display: block;
         width: 5px;
         height: 5px;
-        -ms-transform: rotate(45deg);
-        /* IE 9 */
-        -webkit-transform: rotate(45deg);
-        /* Chrome, Safari, Opera */
-        transform: rotate(45deg);
 
         border-right: 2px solid white;
         border-bottom: 2px solid white;
@@ -160,57 +149,10 @@
         height: 16px;
     }
 
-
-    .unu {
-        margin-top: 1px;
-    }
-
-    .unu,
-    .doi,
-    .trei {
-        -webkit-animation: mouse-scroll 1s infinite;
-        -moz-animation: mouse-scroll 1s infinite;
-        animation: mouse-scroll 1s infinite;
-
-    }
-
-    .unu {
-        -webkit-animation-delay: .1s;
-        -moz-animation-delay: .1s;
-        -webkit-animation-direction: alternate;
-
-        animation-direction: alternate;
-        animation-delay: alternate;
-    }
-
-    .doi {
-        -webkit-animation-delay: .2s;
-        -moz-animation-delay: .2s;
-        -webkit-animation-direction: alternate;
-
-        animation-delay: .2s;
-        animation-direction: alternate;
-
-        margin-top: -6px;
-    }
-
-    .trei {
-        -webkit-animation-delay: .3s;
-        -moz-animation-delay: .3s;
-        -webkit-animation-direction: alternate;
-
-        animation-delay: .3s;
-        animation-direction: alternate;
-
-
-        margin-top: -6px;
-    }
-
     .mouse {
         height: 42px;
         width: 24px;
         border-radius: 14px;
-        transform: none;
         border: 2px solid white;
         top: 170px;
     }
@@ -220,8 +162,6 @@
         width: 2px;
         display: block;
         margin: 5px auto;
-        background: white;
-        position: relative;
 
         height: 7px;
         width: 5px;
@@ -229,65 +169,4 @@
         -webkit-border-radius: 8px;
         border-radius: 8px;
     }
-
-    @-webkit-keyframes mouse-scroll {
-
-        0% {
-            opacity: 0;
-        }
-
-        50% {
-            opacity: .5;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    @-moz-keyframes mouse-scroll {
-
-        0% {
-            opacity: 0;
-        }
-
-        50% {
-            opacity: .5;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    @-o-keyframes mouse-scroll {
-
-        0% {
-            opacity: 0;
-        }
-
-        50% {
-            opacity: .5;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
-    @keyframes mouse-scroll {
-
-        0% {
-            opacity: 0;
-        }
-
-        50% {
-            opacity: .5;
-        }
-
-        100% {
-            opacity: 1;
-        }
-    }
-
 }
