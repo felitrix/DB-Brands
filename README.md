@@ -31,9 +31,9 @@ git clone https://github.com/felitrix/DB-Brands.git
     
 ## Suporte
 
-Para suporte, envie um e-mail para felipekojinakamura@proton.me
+Para suporte, envie um e-mail para felipe.knakamura@senasp.edu.br
 
 
 ## Badges
-![Issue](https://img.shields.io/github/issues/felitrix/felitrix)
+![Issue](https://img.shields.io/github/issues/felitrix/DB-Brands)
 ![Licença](https://img.shields.io/hexpm/l/apa)
