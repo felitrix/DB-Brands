@@ -31,7 +31,7 @@ git clone https://github.com/felitrix/DB-Brands.git
     
 ## Suporte
 
-Para suporte, envie um e-mail para felipe.knakamura@senasp.edu.br
+Para suporte, envie um e-mail para felipe.knakamura@senacsp.edu.br
 
 
 ## Badges
