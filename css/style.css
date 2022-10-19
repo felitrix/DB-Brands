@@ -111,7 +111,7 @@ a:active {
 }
 
 .container {
-    background-color: grey;
+    background-color: #fff;
     min-height: 58px;
     max-height: 47%;
     padding: 50px;
