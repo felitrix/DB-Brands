@@ -1,0 +1,67 @@
+@media screen and (max-width: 480px) and (min-width: 360px) {
+
+    .login-page {
+        width: 360px;
+        padding: 8% 0 0;
+        margin: auto;
+    }
+
+    .form {
+        z-index: 1;
+        max-width: 360px;
+        margin: 0 auto 50px;
+        padding: 30px;
+    }
+
+    .form input {
+        outline: 0;
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .form button {
+        outline: 0;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .form .message {
+        margin: 15px 0 0;
+        font-size: 12px;
+    }
+
+
+    .container {
+        position: relative;
+        z-index: 1;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+
+    .container .info {
+        margin: 50px auto;
+    }
+
+    .container .info h1 {
+        margin: 0 0 15px;
+        padding: 0;
+        font-size: 36px;
+    }
+
+    .container .info span {
+        font-size: 12px;
+    }
+
+
+
+    body {
+        background: url('../images/cyberpunk.jpg');
+        background-repeat: no-repeat;
+    }
+}

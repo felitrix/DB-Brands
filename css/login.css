@@ -114,7 +114,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 body {
   background: url('../images/cyberpunk.jpg');
   background-repeat: no-repeat;
-  background-size: 100%;
 
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
