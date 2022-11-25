@@ -12,7 +12,7 @@ Este projeto é dedicado para o trabalho de um grupo do 1°B de multimídia em s
 
 #### Como é feito o website?
 
-O website é criado usando somente as tecnologias HTML e CSS.
+O website é criado usando tecnologias HTML e CSS e linguagem de programação JavaScript.
 
 #### Quem faz parte do projeto?
 
