@@ -96,12 +96,6 @@ img {
   margin: 1rem 0;
 }
 
-.section-b {
-  position: relative;
-  background: url('https://images.unsplash.com/photo-1531565637446-32307b194362?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80') no-repeat bottom center/cover;
-  height: 600px;
-}
-
 .section-b-inner {
   color: #fff;
   height: 100%;
@@ -132,6 +126,11 @@ img {
 .section-c .gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  max-width: 250px;
+  flex: 1 16%;
 }
 
 .section-c .gallery a:first-child {
@@ -149,10 +148,6 @@ img {
 .section-c .gallery img .section-c .gallery a {
   top: 63px;
   left: 848px;
-  width: 224px;
-  height: 282px;
-  height: auto;
-  width: 100%;
 
 }
 
