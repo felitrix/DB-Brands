@@ -1,3 +1,3 @@
-$(function() {
-        const $gallery = $('.gallery a').simpleLightbox();
-      });
+$(function () {
+  const $gallery = $(".gallery a").simpleLightbox();
+});

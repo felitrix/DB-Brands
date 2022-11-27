@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-.wrapper>* {
+.wrapper > * {
   padding: 10px;
   flex: 1 100%;
 }
