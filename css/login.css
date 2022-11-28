@@ -8,6 +8,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+body {
+  background: url("../images/cyberpunk.jpg");
+  background-repeat: no-repeat;
+
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .login-page {
   width: 360px;
   padding: 8% 0 0;
@@ -108,13 +116,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .container .info span .fa {
   color: #ef3b3a;
-}
-
-body {
-  background: url("../images/cyberpunk.jpg");
-  background-repeat: no-repeat;
-
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

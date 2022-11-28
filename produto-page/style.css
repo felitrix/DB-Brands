@@ -240,18 +240,4 @@ img {
   .section-c .gallery a:last-child {
     display: none;
   }
-
-  .section-footer {
-    padding: 2rem 0;
-  }
-
-  .section-footer .container {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-
-  .section-footer div:nth-child(2),
-  .section-footer div:nth-child(3) {
-    display: none;
-  }
 }
