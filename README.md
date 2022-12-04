@@ -4,7 +4,7 @@ Esse website criado para a DB Brands, onde objetiva a prototipação do projeto,
 ## Autores
 
 - [@felitrix](https://github.com/felitrix)
-- [@ EnzoDonola](https://github.com/EnzoDonola)
+- [@EnzoDonola](https://github.com/EnzoDonola)
 ## FAQ
 
 #### O que é esse projeto?
