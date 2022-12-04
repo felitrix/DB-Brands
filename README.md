@@ -4,6 +4,7 @@ Esse website criado para a DB Brands, onde objetiva a prototipação do projeto,
 ## Autores
 
 - [@felitrix](https://github.com/felitrix)
+- [@ EnzoDonola](https://github.com/EnzoDonola)
 ## FAQ
 
 #### O que é esse projeto?
@@ -16,7 +17,7 @@ O website é criado usando tecnologias HTML e CSS e linguagem de programação J
 
 #### Quem faz parte do projeto?
 
-Os integrantes do grupo são: Alexandre Murilo; Enzo de Souza; Pedro Augusto; 
+Os integrantes do grupo são: Alexandre Murilo; Enzo de Souza; Miguel Villaça; Pedro Augusto.
 ## License
 
 [Apache License, Version 2.0](https://opensource.org/licenses/Apache-2.0)
